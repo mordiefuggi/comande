@@ -1,0 +1,813 @@
+{
+ "v": 2,
+ "S": {
+  "settings": {
+   "shopName": "Mordi & Fuggi",
+   "width": 32,
+   "kitchenCopy": false,
+   "preview": true,
+   "pin": "",
+   "codepage": "cp1252",
+   "sendMode": "intent",
+   "dailyReset": true,
+   "showCost": false,
+   "baseLabel": "Tipo",
+   "bases": [
+    {
+     "id": "base1",
+     "n": "Panino"
+    },
+    {
+     "id": "base2",
+     "n": "Tortilla"
+    }
+   ]
+  },
+  "categories": [
+   {
+    "id": "panini",
+    "name": "Panini e tortillas",
+    "color": "#C3850F",
+    "kitchen": true,
+    "base": true
+   },
+   {
+    "id": "vaschette",
+    "name": "Vaschette",
+    "color": "#4A7F33",
+    "kitchen": true,
+    "base": false
+   },
+   {
+    "id": "bibite",
+    "name": "Bibite",
+    "color": "#29649B",
+    "kitchen": false,
+    "base": false
+   }
+  ],
+  "groups": [
+   {
+    "id": "salse",
+    "name": "Salse",
+    "style": "named",
+    "priced": false,
+    "options": [
+     {
+      "id": "omu8dz6gy101",
+      "n": "K",
+      "p": 0,
+      "ing": []
+     },
+     {
+      "id": "omu8dz6gy102",
+      "n": "M",
+      "p": 0,
+      "ing": []
+     },
+     {
+      "id": "omu8dz6gy103",
+      "n": "Rosa",
+      "p": 0,
+      "ing": []
+     },
+     {
+      "id": "omu8dz6gy104",
+      "n": "Barbecue",
+      "p": 0,
+      "ing": []
+     },
+     {
+      "id": "omu8dz6gy105",
+      "n": "Tabasco",
+      "p": 0,
+      "ing": []
+     }
+    ]
+   },
+   {
+    "id": "aggiunte",
+    "name": "Aggiunte",
+    "style": "plus",
+    "priced": true,
+    "options": [
+     {
+      "id": "omu8gh6ze117",
+      "n": "Patatine",
+      "p": 0.5,
+      "ing": []
+     },
+     {
+      "id": "omu8g3qif103",
+      "n": "Lattuga",
+      "p": 0.5,
+      "ing": []
+     }
+    ]
+   },
+   {
+    "id": "senza",
+    "name": "Senza",
+    "style": "plain",
+    "priced": false,
+    "options": [
+     {
+      "id": "omu8g4kbp104",
+      "n": "Patatine",
+      "p": 0,
+      "ing": []
+     }
+    ]
+   }
+  ],
+  "ingredients": [
+   {
+    "id": "imu8g2iqy101",
+    "n": "Lattuga"
+   }
+  ],
+  "products": [
+   {
+    "id": "pmu8dztfx107",
+    "cat": "panini",
+    "name": "Pat.",
+    "price": 3,
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ],
+    "useBase": true,
+    "ing": [],
+    "baseExtra": {},
+    "cost": 0
+   },
+   {
+    "id": "pmu8e324b108",
+    "cat": "panini",
+    "name": "Wurstel Pat.",
+    "price": 3.5,
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ],
+    "useBase": true,
+    "ing": [],
+    "baseExtra": {},
+    "cost": 0
+   },
+   {
+    "id": "pmu8e3jkg109",
+    "cat": "panini",
+    "name": "Panelle Pat.",
+    "price": 3.5,
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ],
+    "useBase": true,
+    "ing": [],
+    "baseExtra": {},
+    "cost": 0
+   },
+   {
+    "id": "pmu8e3t8x110",
+    "cat": "panini",
+    "name": "Prosc. Cotto Mozz. Pat.",
+    "price": 4,
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ],
+    "useBase": true,
+    "ing": [],
+    "baseExtra": {},
+    "cost": 0
+   },
+   {
+    "id": "pmu8e4ojy111",
+    "cat": "panini",
+    "name": "Porchetta Mozz. Pat.",
+    "price": 4,
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ],
+    "useBase": true,
+    "ing": [],
+    "baseExtra": {},
+    "cost": 0
+   },
+   {
+    "id": "pmu8e4yo7112",
+    "cat": "panini",
+    "name": "Sal. Picc. Mozz. Pat.",
+    "price": 4,
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ],
+    "useBase": true,
+    "ing": [],
+    "baseExtra": {},
+    "cost": 0
+   },
+   {
+    "id": "pmu8e5942113",
+    "cat": "panini",
+    "name": "Kebab Pat.",
+    "price": 5,
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ],
+    "useBase": true,
+    "ing": [],
+    "baseExtra": {},
+    "cost": 0
+   },
+   {
+    "id": "pmu8e5iyp114",
+    "cat": "panini",
+    "name": "Arrosto Pat.",
+    "price": 5,
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ],
+    "useBase": true,
+    "ing": [],
+    "baseExtra": {},
+    "cost": 0
+   },
+   {
+    "id": "pmu8ebat7118",
+    "cat": "panini",
+    "name": "Prosc. Crudo Pat.",
+    "price": 4,
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ],
+    "useBase": true,
+    "ing": [],
+    "baseExtra": {},
+    "cost": 0
+   },
+   {
+    "id": "pmu8ecd03119",
+    "cat": "panini",
+    "name": "Cavallo Pat.",
+    "price": 5,
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ],
+    "useBase": true,
+    "ing": [],
+    "baseExtra": {},
+    "cost": 0
+   },
+   {
+    "id": "pmu8ep8f0120",
+    "cat": "panini",
+    "name": "Polp. Cav. Pat.",
+    "price": 5,
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ],
+    "useBase": true,
+    "ing": [],
+    "baseExtra": {},
+    "cost": 0
+   },
+   {
+    "id": "pmu8eph5c121",
+    "cat": "panini",
+    "name": "Pollo Pat.",
+    "price": 5,
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ],
+    "useBase": true,
+    "ing": [],
+    "baseExtra": {},
+    "cost": 0
+   },
+   {
+    "id": "pmu8eq0v4122",
+    "cat": "panini",
+    "name": "Salsiccia Pat.",
+    "price": 5,
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ],
+    "useBase": true,
+    "ing": [],
+    "baseExtra": {},
+    "cost": 0
+   },
+   {
+    "id": "pmu8eqeox123",
+    "cat": "panini",
+    "name": "Pollo Curry Pat.",
+    "price": 5,
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ],
+    "useBase": true,
+    "ing": [],
+    "baseExtra": {},
+    "cost": 0
+   },
+   {
+    "id": "pmu8eqqeb124",
+    "cat": "panini",
+    "name": "Pollo Barbecue Pat.",
+    "price": 5,
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ],
+    "useBase": true,
+    "ing": [],
+    "baseExtra": {},
+    "cost": 0
+   },
+   {
+    "id": "pmu8eqxre125",
+    "cat": "panini",
+    "name": "Pollo ai funghi Pat.",
+    "price": 5,
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ],
+    "useBase": true,
+    "ing": [],
+    "baseExtra": {},
+    "cost": 0
+   },
+   {
+    "id": "pmu8erfem126",
+    "cat": "panini",
+    "name": "Insalata Pollo Pat.",
+    "price": 5,
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ],
+    "useBase": true,
+    "ing": [],
+    "baseExtra": {},
+    "cost": 0
+   },
+   {
+    "id": "pmu8ermwp127",
+    "cat": "panini",
+    "name": "Gamberetti Pat.",
+    "price": 7,
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ],
+    "useBase": true,
+    "ing": [],
+    "baseExtra": {},
+    "cost": 0
+   },
+   {
+    "id": "pmu8ersah128",
+    "cat": "panini",
+    "name": "Cotoletta Pollo Pat.",
+    "price": 5,
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ],
+    "useBase": true,
+    "ing": [],
+    "baseExtra": {},
+    "cost": 0
+   },
+   {
+    "id": "pmu8es034129",
+    "cat": "panini",
+    "name": "Crocchette Pat.",
+    "price": 3.5,
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ],
+    "useBase": true,
+    "ing": [],
+    "baseExtra": {},
+    "cost": 0
+   },
+   {
+    "id": "pmu8es9vk130",
+    "cat": "panini",
+    "name": "Wurstel Salsa Rosa Pat.",
+    "price": 4,
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ],
+    "useBase": true,
+    "ing": [],
+    "baseExtra": {},
+    "cost": 0
+   },
+   {
+    "id": "pmu8esl48131",
+    "cat": "panini",
+    "name": "Hamburger Vitello Pat.",
+    "price": 5,
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ],
+    "useBase": true,
+    "ing": [],
+    "baseExtra": {},
+    "cost": 0
+   },
+   {
+    "id": "pmu8gfxsa103",
+    "cat": "vaschette",
+    "name": "Patatine",
+    "price": 2,
+    "cost": 0,
+    "useBase": false,
+    "baseExtra": {},
+    "ing": [],
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ]
+   },
+   {
+    "id": "pmu8gfxsa104",
+    "cat": "vaschette",
+    "name": "Anelli di cipolla",
+    "price": 2,
+    "cost": 0,
+    "useBase": false,
+    "baseExtra": {},
+    "ing": [],
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ]
+   },
+   {
+    "id": "pmu8gfxsa105",
+    "cat": "vaschette",
+    "name": "Panelle",
+    "price": 2.5,
+    "cost": 0,
+    "useBase": false,
+    "baseExtra": {},
+    "ing": [],
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ]
+   },
+   {
+    "id": "pmu8gfxsa106",
+    "cat": "vaschette",
+    "name": "Crocchette",
+    "price": 2.5,
+    "cost": 0,
+    "useBase": false,
+    "baseExtra": {},
+    "ing": [],
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ]
+   },
+   {
+    "id": "pmu8gfxsa107",
+    "cat": "vaschette",
+    "name": "Cazzilli (Polpette di patate)",
+    "price": 2.5,
+    "cost": 0,
+    "useBase": false,
+    "baseExtra": {},
+    "ing": [],
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ]
+   },
+   {
+    "id": "pmu8gfxsa108",
+    "cat": "vaschette",
+    "name": "Mistofritto",
+    "price": 3.5,
+    "cost": 0,
+    "useBase": false,
+    "baseExtra": {},
+    "ing": [],
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ]
+   },
+   {
+    "id": "pmu8gfxsa109",
+    "cat": "vaschette",
+    "name": "Wurstel",
+    "price": 3,
+    "cost": 0,
+    "useBase": false,
+    "baseExtra": {},
+    "ing": [],
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ]
+   },
+   {
+    "id": "pmu8gfxsa110",
+    "cat": "vaschette",
+    "name": "Kebab",
+    "price": 3,
+    "cost": 0,
+    "useBase": false,
+    "baseExtra": {},
+    "ing": [],
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ]
+   },
+   {
+    "id": "pmu8gfxsa111",
+    "cat": "vaschette",
+    "name": "Pollo",
+    "price": 3,
+    "cost": 0,
+    "useBase": false,
+    "baseExtra": {},
+    "ing": [],
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ]
+   },
+   {
+    "id": "pmu8gfxsa112",
+    "cat": "vaschette",
+    "name": "Arrosto",
+    "price": 3,
+    "cost": 0,
+    "useBase": false,
+    "baseExtra": {},
+    "ing": [],
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ]
+   },
+   {
+    "id": "pmu8gfxsa113",
+    "cat": "vaschette",
+    "name": "Alette messicane",
+    "price": 3.5,
+    "cost": 0,
+    "useBase": false,
+    "baseExtra": {},
+    "ing": [],
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ]
+   },
+   {
+    "id": "pmu8gfxsa114",
+    "cat": "vaschette",
+    "name": "Bastoncini di pollo al miele",
+    "price": 0,
+    "cost": 0,
+    "useBase": false,
+    "baseExtra": {},
+    "ing": [],
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ]
+   },
+   {
+    "id": "pmu8gfxsa115",
+    "cat": "vaschette",
+    "name": "Cavallo",
+    "price": 4,
+    "cost": 0,
+    "useBase": false,
+    "baseExtra": {},
+    "ing": [],
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ]
+   },
+   {
+    "id": "pmu8gfxsa116",
+    "cat": "vaschette",
+    "name": "Gamberetti",
+    "price": 5,
+    "cost": 0,
+    "useBase": false,
+    "baseExtra": {},
+    "ing": [],
+    "mods": [
+     "salse",
+     "aggiunte",
+     "senza"
+    ]
+   },
+   {
+    "id": "pmu8giz6h119",
+    "cat": "bibite",
+    "name": "Acqua",
+    "price": 0,
+    "cost": 0,
+    "useBase": false,
+    "baseExtra": {},
+    "ing": [],
+    "mods": [],
+    "variants": [
+     {
+      "n": "Naturale 0,5 lt",
+      "p": 1,
+      "cost": 0
+     },
+     {
+      "n": "Frizzante 0,5 lt",
+      "p": 1,
+      "cost": 0
+     },
+     {
+      "n": "Naturale 2 lt",
+      "p": 2,
+      "cost": 0
+     }
+    ],
+    "variantsLabel": "Scegli"
+   },
+   {
+    "id": "pmu8gjyj5120",
+    "cat": "bibite",
+    "name": "Lattine 33 cl",
+    "price": 0,
+    "cost": 0,
+    "useBase": false,
+    "baseExtra": {},
+    "ing": [],
+    "mods": [],
+    "variants": [
+     {
+      "n": "Coca-cola",
+      "p": 2,
+      "cost": 0
+     },
+     {
+      "n": "Coca-cola zero",
+      "p": 2,
+      "cost": 0
+     },
+     {
+      "n": "Fanta",
+      "p": 2,
+      "cost": 0
+     },
+     {
+      "n": "Sprite",
+      "p": 2,
+      "cost": 0
+     },
+     {
+      "n": "Lemon Soda",
+      "p": 2,
+      "cost": 0
+     },
+     {
+      "n": "Redbull",
+      "p": 3,
+      "cost": 0
+     }
+    ],
+    "variantsLabel": "Scegli"
+   },
+   {
+    "id": "pmu8gmoxh121",
+    "cat": "bibite",
+    "name": "Birre",
+    "price": 0,
+    "cost": 0,
+    "useBase": false,
+    "baseExtra": {},
+    "ing": [],
+    "mods": [],
+    "variants": [
+     {
+      "n": "Moretti",
+      "p": 2,
+      "cost": 0
+     },
+     {
+      "n": "Peroni",
+      "p": 2,
+      "cost": 0
+     },
+     {
+      "n": "Beck's",
+      "p": 3,
+      "cost": 0
+     },
+     {
+      "n": "Nastro Azzurro",
+      "p": 3,
+      "cost": 0
+     },
+     {
+      "n": "Tennent's",
+      "p": 3,
+      "cost": 0
+     },
+     {
+      "n": "Ceres",
+      "p": 3.5,
+      "cost": 0
+     },
+     {
+      "n": "Cristalli di sale",
+      "p": 3.5,
+      "cost": 0
+     }
+    ],
+    "variantsLabel": "Scegli"
+   }
+  ]
+ },
+ "orderNo": 2,
+ "stats": {
+  "date": "2026-09-19",
+  "orders": 1,
+  "revenue": 4,
+  "items": {
+   "Prosc. Cotto Mozz. Pat. (Tortilla)": 1
+  }
+ },
+ "daily": {
+  "date": "2026-09-19",
+  "out": {
+   "imu8g2iqy101": false
+  },
+  "outP": {
+   "pmu8e324b108": false
+  }
+ },
+ "history": []
+}
